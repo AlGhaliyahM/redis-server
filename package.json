@@ -2,7 +2,7 @@
   "name": "redis-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^20.11.16",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "net": "^1.0.2"
   }
 }
